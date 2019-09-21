@@ -4,7 +4,7 @@ GitHub Actions made and used by the engineering team at Malomo
 
 ## Contents
 
-* Official Resources
+* [Official Resources](#official-resources)
 
 ## Official Resources
 
