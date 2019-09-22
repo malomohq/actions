@@ -8,7 +8,7 @@ Retrieve the package version from a Node.js project
 
 Relative path of the `package.json` containing the version to retrieve.
 
-Defaults to `.`
+Defaults to `./`
 
 ## Outputs
 
@@ -19,5 +19,7 @@ Version retrieved for the Node.js project.
 ## Example Usage
 
 ```yaml
-uses: malomohq/node-package-version
+- uses: malomohq/node/package-version@master
+  with:
+    path: ./node/package-version
 ```
