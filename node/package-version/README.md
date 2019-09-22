@@ -4,9 +4,15 @@ Retrieve the package version from a Node.js project
 
 ## Inputs
 
-### path
+### `path`
 
-Relative path of the package.json containing the version to retrieve.
+Relative path of the `package.json` containing the version to retrieve.
+
+## Outputs
+
+### `version`
+
+Version retrieved for the Node.js project.
 
 ## Example Usage
 
