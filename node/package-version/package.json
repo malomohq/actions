@@ -1,0 +1,14 @@
+{
+  "name": "node-package-version",
+  "description": "Retrieve the package version from a Node.js project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.1.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malomohq/actions"
+  }
+}
