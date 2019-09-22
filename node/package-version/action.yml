@@ -6,7 +6,7 @@ branding:
   icon: package
 inputs:
   path:
-    default: .
+    default: ./
     description: Relative path of the package.json containing the version to retrieve
     required: false
 outputs:
