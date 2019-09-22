@@ -8,6 +8,8 @@ Retrieve the package version from a Node.js project
 
 Relative path of the `package.json` containing the version to retrieve.
 
+Defaults to `.`.
+
 ## Outputs
 
 ### `version`
