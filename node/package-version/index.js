@@ -1,9 +1,11 @@
 const core = require('@actions/core');
 
-try {
-  const path = core.getInput('path');
+const path = require('path');
 
-  const package = require(`${path}/package.json`);
+try {
+  const packagePath = path.join(core.getInput('path'), 'package.json');
+
+  const package = require(packagePath);
 
   core.setOutput('version', package.version);
 } catch (error) {
