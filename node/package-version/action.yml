@@ -1,0 +1,17 @@
+name: Node.js Package Version
+description: Retrieve the package version for a Node.js project
+author: Malomo
+branding:
+  color: red
+  icon: package
+inputs:
+  path:
+    default: .
+    description: Relative path of the package.json containing the version to retrieve
+    required: false
+outputs:
+  version:
+    description: Version retrieved for the Node.js project
+runs:
+  main: index.js
+  using: node12
