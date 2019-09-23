@@ -6,7 +6,6 @@ branding:
   icon: package
 inputs:
   filePath:
-    default: ./package.json
     description: Path to the package.json containing the version to retrieve
     required: false
   prefix:
@@ -19,5 +18,5 @@ outputs:
   version:
     description: Version retrieved for the Node.js project
 runs:
-  main: index.js
+  main: lib/index.js
   using: node12

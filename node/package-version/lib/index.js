@@ -1,7 +1,11 @@
 const core = require('@actions/core');
 
+const defaultFilePath = require('./defaultFilePath');
+
 try {
-  const filePath = core.getInput('filePath');
+
+
+  const filePath = core.getInput('filePath') || defaultFilePath();
   const prefix = core.getInput('prefix') || '';
   const suffix = core.getInput('suffix') || '';
 
