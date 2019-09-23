@@ -1,6 +1,6 @@
 const github = require('@actions/github');
 
-module.exports.defaultFilePath = () => {
+exports = () => {
   const context = github.context;
 
   const repoName = context.repo.split('/');
