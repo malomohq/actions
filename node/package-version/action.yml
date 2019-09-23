@@ -7,7 +7,7 @@ branding:
 inputs:
   filePath:
     default: ./package.json
-    description: Path of the package.json containing the version to retrieve
+    description: Path to the package.json containing the version to retrieve
     required: false
 outputs:
   version:
