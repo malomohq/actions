@@ -7,7 +7,7 @@ try {
 
   const package = require(filePath);
 
-  core.setOutput('version', `${prefix}${package.version}${suffix}`;);
+  core.setOutput('version', `${prefix}${package.version}${suffix}`);
 } catch (error) {
   core.setFailed(error.message);
 }
