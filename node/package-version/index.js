@@ -1,9 +1,13 @@
 const core = require('@actions/core');
 
 try {
-  const package = require(core.getInput('filePath'));
+  const filePath = core.getInput('filePath');
+  const prefix = core.getInput('prefix') || '';
+  const suffix = core.getInput('suffix') || '';
 
-  core.setOutput('version', package.version);
+  const package = require(filePath);
+
+  core.setOutput('version', `${prefix}${package.version}${suffix}`;);
 } catch (error) {
   core.setFailed(error.message);
 }

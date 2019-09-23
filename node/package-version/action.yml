@@ -9,6 +9,12 @@ inputs:
     default: ./package.json
     description: Path to the package.json containing the version to retrieve
     required: false
+  prefix:
+    description: Prepend to version
+    required: false
+  suffix:
+    description: Append to version
+    required: false
 outputs:
   version:
     description: Version retrieved for the Node.js project
