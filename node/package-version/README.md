@@ -6,23 +6,23 @@ Retrieve the package version from a Node.js project
 
 ### `filePath`
 
-Path to the package.json containing the version to retrieve
+Path to the package.json containing the version to retrieve.
 
-Defaults to `./package.json`
+Defaults to the path checked out by `actions/checkout`.
 
 ### `prefix`
 
-Prepended to version
+Prepended to version.
 
 ### `suffix`
 
-Appended to version
+Appended to version.
 
 ## Outputs
 
 ### `version`
 
-Version retrieved for the Node.js project
+Version retrieved for the Node.js project.
 
 ## Example Usage
 
